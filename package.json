@@ -15,8 +15,8 @@
     "apidoc": {
         "name": "KOPSOL",
         "version": "0.1.0",
-        "description": "This API doc is for KOPSOL project at bangkit academy 2023 batch 1 capstone project",
+        "description": "Dokumentasi API ini digtujukan untuk Capstone Project Bangkit Academu batch 1 kelompol C23-PC787",
         "title": "KOPSOL API Documentation",
-        "url": "https://kopsol-bangkit-cc.github.com/v1"
+        "url": "https://kopsol.id/api/v1"
     }
 }
