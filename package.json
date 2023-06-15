@@ -1,6 +1,7 @@
 {
     "private": true,
     "type": "module",
+    "version": "0.1.0",
     "scripts": {
         "dev": "vite",
         "build": "vite build",
@@ -12,14 +13,20 @@
         "@fortawesome/free-solid-svg-icons": "^6.4.0",
         "@fortawesome/vue-fontawesome": "^3.0.3",
         "@profabric/vue-components": "^0.1.7",
+        "@vueuse/core": "^10.1.2",
         "axios": "^1.1.2",
         "font-awesome": "^4.7.0",
+        "luxon": "^3.3.0",
+        "oidc-client-ts": "^2.2.4",
         "vue": "^3.3.4",
+        "vue-facing-decorator": "^2.1.20",
+        "vue-i18n": "^9.2.2",
         "vue-router": "^4.2.2",
         "vue-toastification": "^2.0.0-rc.5",
         "vuex": "^4.1.0"
     },
     "devDependencies": {
+        "@types/luxon": "^3.3.0",
         "@vitejs/plugin-vue": "^4.2.3",
         "@vue/cli-plugin-typescript": "^5.0.8",
         "admin-lte": "^3.2.0",

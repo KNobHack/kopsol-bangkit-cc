@@ -1,6 +1,6 @@
-import {calculateWindowSize} from '@/utils/helpers';
-import {Component, Vue, Watch} from 'vue-facing-decorator';
-import {useWindowSize} from '@vueuse/core';
+import { calculateWindowSize } from '@/utils/helpers';
+import { Component, Vue, Watch } from 'vue-facing-decorator';
+import { useWindowSize } from '@vueuse/core';
 import {
     GoogleProvider,
     getAuthStatus,
@@ -42,7 +42,7 @@ export default class App extends Vue {
     }
 
     get windowSize() {
-        const {width} = useWindowSize();
+        const { width } = useWindowSize();
         return calculateWindowSize(width.value);
     }
 }

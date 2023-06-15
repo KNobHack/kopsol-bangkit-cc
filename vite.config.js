@@ -13,11 +13,11 @@ export default defineConfig({
     ],
     resolve: {
         alias: {
-            '@': path.resolve(__dirname, './src'),
-            '@store': path.resolve(__dirname, './src/store'),
-            '@components': path.resolve(__dirname, './src/components'),
-            '@modules': path.resolve(__dirname, './src/modules'),
-            '@pages': path.resolve(__dirname, './src/pages')
+            '@': path.resolve(__dirname, './resources/js/src'),
+            '@store': path.resolve(__dirname, './resources/js/src/store'),
+            '@components': path.resolve(__dirname, './resources/js/src/components'),
+            '@modules': path.resolve(__dirname, './resources/js/src/modules'),
+            '@pages': path.resolve(__dirname, './resources/js/src/pages')
         }
     }
 
